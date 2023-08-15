@@ -1,0 +1,21 @@
+.text-image-container2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.text-content2 {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.image-content2 {
+  flex: 2;
+  text-align: left;
+}
+
+.image-content2 img {
+  max-width: 100%;
+  height: auto;
+}
