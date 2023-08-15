@@ -26,8 +26,13 @@ function Atom72() {
                             {images.map((image, index) => (
                                 <li
                                     key={index}
-                                    className={`list-group-item ${selectedImageIndex === index ? 'active' : ''}`}
+                                    className={`list-group-item ${selectedImageIndex === index ? 'active' : ''} bg-transparent border-0 p-0`}
                                     onClick={() => handleImageChange(index)}
+                                    style={{
+                                        cursor: 'pointer',
+                                        backgroundColor: selectedImageIndex === index ? '#F29200' : '#3D2500',
+                                        color: selectedImageIndex === index ? '#F29200' : '#3D2500'
+                                    }}
                                 >
                                     Imagen {index + 1}
                                 </li>
@@ -39,6 +44,7 @@ function Atom72() {
                     <div className="text-center">
                         <img src={images[selectedImageIndex]} alt={`Imagen ${selectedImageIndex + 1}`} className="img-fluid" />
                     </div>
+                    <p className="mt-3">Descripción o contenido relacionado a la imagen seleccionada.</p>
                 </div>
             </div>
         </div>
