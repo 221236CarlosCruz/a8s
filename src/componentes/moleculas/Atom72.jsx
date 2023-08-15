@@ -31,7 +31,8 @@ function Atom72() {
                                     style={{
                                         cursor: 'pointer',
                                         backgroundColor: selectedImageIndex === index ? '#F29200' : '#3D2500',
-                                        color: selectedImageIndex === index ? '#F29200' : '#3D2500'
+                                        color: selectedImageIndex === index ? '#F29200' : '#3D2500',
+                                        fontSize: selectedImageIndex === index ? '35px' : '35px' // Cambia los tamaños de fuente aquí
                                     }}
                                 >
                                     Imagen {index + 1}
@@ -44,7 +45,6 @@ function Atom72() {
                     <div className="text-center">
                         <img src={images[selectedImageIndex]} alt={`Imagen ${selectedImageIndex + 1}`} className="img-fluid" />
                     </div>
-                    <p className="mt-3">Descripción o contenido relacionado a la imagen seleccionada.</p>
                 </div>
             </div>
         </div>
