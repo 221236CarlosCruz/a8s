@@ -1,7 +1,7 @@
 import { useState } from "react";
-import image1 from '../../assets/img/ok1.jpeg';
-import image2 from '../../assets/img/ok2.jpeg';
-import image3 from '../../assets/img/ok3.jpeg';
+import image1 from '../../assets/img/ok1.jpg';
+import image2 from '../../assets/img/ok2.jpg';
+import image3 from '../../assets/img/ok3.jpg';
 
 function Atom72() {
     const [selectedImageIndex, setSelectedImageIndex] = useState(0);
@@ -15,7 +15,7 @@ function Atom72() {
     return (
         <div className="container mt-5">
             <div className="row">
-                <div className="col-md-3">
+                <div className="col-md-3 d-flex align-items-center justify-content-center">
                     <ul className="list-group">
                         {images.map((image, index) => (
                             <li
