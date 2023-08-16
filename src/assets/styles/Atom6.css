@@ -1,0 +1,54 @@
+/* ImageCarousel.css */
+
+.container {
+  /* Estilos para el contenedor del carousel */
+}
+
+.row {
+  /* Estilos para la fila */
+}
+
+.col-md-12 {
+  /* Estilos para la columna */
+}
+
+.image-carousel {
+  /* Estilos para el carousel */
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.carousel-images {
+  /* Estilos para el contenedor de las imágenes */
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  /* Estilos para cada diapositiva del carousel */
+  flex: 0 0 calc(100% / 3);
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.carousel-prev,
+.carousel-next {
+  /* Estilos para las flechas de navegación */
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.carousel-prev {
+  margin-right: auto;
+}
+
+.carousel-next {
+  margin-left: auto;
+}
