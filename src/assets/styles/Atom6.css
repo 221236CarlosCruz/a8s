@@ -1,7 +1,5 @@
 /* ImageCarousel.css */
 
-/* ... (otros estilos) ... */
-
 .container {
   /* Estilos para el contenedor del carousel */
 }
@@ -10,15 +8,15 @@
   /* Estilos para la fila */
 }
 
-.col-md-12 {
-  /* Estilos para la columna */
+.col-md-9 {
+  /* Estilos para la columna del carousel */
 }
 
 .image-carousel {
   /* Estilos para el carousel */
   position: relative;
   width: 100%;
-  max-width: 600px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -36,7 +34,7 @@
   background-size: cover;
   background-position: center;
   transition: opacity 0.3s ease-in-out;
-  margin: 0 10px; /* Agrega un margen a las imágenes */
+  margin: 0 5px; /* Ajusta el margen horizontalmente */
 }
 
 .carousel-prev,
@@ -46,14 +44,6 @@
   border: none;
   font-size: 24px;
   cursor: pointer;
-}
-
-.carousel-prev {
-  margin-right: 10px; /* Espaciado entre la flecha y el carousel */
-}
-
-.carousel-next {
-  margin-left: 10px; /* Espaciado entre la flecha y el carousel */
 }
 
 /* ... (otros estilos) ... */
