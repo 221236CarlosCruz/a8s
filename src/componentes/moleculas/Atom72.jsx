@@ -11,11 +11,13 @@ import image8 from '../../assets/img/ok3.jpg';
 function Atom72() {
     const [selectedImageIndex, setSelectedImageIndex] = useState(0);
 
-    const images = [image1, image2, image3, image4, image5, image6, image7, image8];
+    const images = [image1, image2, image3,image4, image5, image6,image7, image8];
 
     const handleImageChange = (index) => {
         setSelectedImageIndex(index);
     };
+
+    const customNames = ['Sala', 'Terraza', 'Nombre1', 'Nombre2', 'Nombre3', 'Nombre4', 'Nombre5'];
 
     return (
         <div className="container mt-5">
@@ -31,11 +33,11 @@ function Atom72() {
                                     style={{
                                         cursor: 'pointer',
                                         backgroundColor: selectedImageIndex === index ? '#F29200' : '#3D2500',
-                                        color: selectedImageIndex === index ? '#F29200' : '#3D2500',
-                                        fontSize: selectedImageIndex === index ? '35px' : '35px' // Cambia los tamaños de fuente aquí
+                                        color: selectedImageIndex === index ? '#F29200' : '#F29200',
+                                        fontSize: selectedImageIndex === index ? '18px' : '16px'
                                     }}
                                 >
-                                    Imagen {index + 1}
+                                    {customNames[index]}
                                 </li>
                             ))}
                         </ul>
@@ -45,6 +47,7 @@ function Atom72() {
                     <div className="text-center">
                         <img src={images[selectedImageIndex]} alt={`Imagen ${selectedImageIndex + 1}`} className="img-fluid" />
                     </div>
+                    <p className="mt-3" style={{ fontSize: '18px' }}>Descripción o contenido relacionado a la imagen seleccionada.</p>
                 </div>
             </div>
         </div>
