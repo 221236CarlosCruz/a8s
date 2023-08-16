@@ -24,7 +24,10 @@ function Atom6() {
     return (
         <div className="container mt-5">
             <div className="row">
-                <div className="col-md-12">
+                <div className="col-md-12 d-flex justify-content-center align-items-center">
+                    <button className="carousel-prev" onClick={goToPreviousSlide}>
+                        {'<'}
+                    </button>
                     <div className="image-carousel">
                         <div className="carousel-images">
                             {visibleImages.map((image, index) => (
@@ -35,16 +38,14 @@ function Atom6() {
                                 ></div>
                             ))}
                         </div>
-                        <button className="carousel-prev" onClick={goToPreviousSlide}>
-                            {'<'}
-                        </button>
-                        <button className="carousel-next" onClick={goToNextSlide}>
-                            {'>'}
-                        </button>
                     </div>
+                    <button className="carousel-next" onClick={goToNextSlide}>
+                        {'>'}
+                    </button>
                 </div>
             </div>
         </div>
+
     );
 }
 

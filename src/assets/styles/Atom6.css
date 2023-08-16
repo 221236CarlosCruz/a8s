@@ -1,5 +1,7 @@
 /* ImageCarousel.css */
 
+/* ... (otros estilos) ... */
+
 .container {
   /* Estilos para el contenedor del carousel */
 }
@@ -34,6 +36,7 @@
   background-size: cover;
   background-position: center;
   transition: opacity 0.3s ease-in-out;
+  margin: 0 10px; /* Agrega un margen a las imágenes */
 }
 
 .carousel-prev,
@@ -46,9 +49,11 @@
 }
 
 .carousel-prev {
-  margin-right: auto;
+  margin-right: 10px; /* Espaciado entre la flecha y el carousel */
 }
 
 .carousel-next {
-  margin-left: auto;
+  margin-left: 10px; /* Espaciado entre la flecha y el carousel */
 }
+
+/* ... (otros estilos) ... */
