@@ -1,0 +1,546 @@
+/* .rectangulo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #f3f4f4;
+}
+
+.zumzum {
+  display: flex;
+  justify-content: space-around;
+  padding-block: 100px;
+}
+
+.txt-acerca {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  margin-left: 10%;
+  color: #000000;
+  font-family: Atlane;
+  font-size: 48px;
+  line-height: normal;
+}
+
+.txt-descripcionacerca {
+  text-align: justify;
+  color: #4b4124;
+  font-family: Jamie Woods;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  width: 35%;
+  margin-left: 10%;
+}
+
+.conocermas1 {
+  display: flex;
+  width: 223.816px;
+  height: 56px;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 20%;
+  border-radius: 15px;
+  background: #fcc937;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.61);
+}
+
+.FotoAcercaDe {
+  width: 624px;
+  margin-top: -25%;
+  height: 418px;
+  margin-left: 71%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.zum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+
+  filter: drop-shadow(9px 10px 8px rgba(0, 0, 0, 0.2));
+
+  padding: 100px;
+}
+
+.car1 {
+  width: 330px;
+  height: 230px;
+  text-align: center;
+
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  background: #f3f4f4;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.car2 {
+  width: 330px;
+  height: 230px;
+  text-align: center;
+
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  background: #f3f4f4;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.car3 {
+  width: 330px;
+  height: 230px;
+  text-align: center;
+
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  background: #f3f4f4;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-title {
+  padding-left: 20px;
+  text-align: justify;
+
+  color: #000;
+  font-family: Atlane;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card-text {
+  padding-bottom: 10%;
+  padding-left: 20px;
+  text-align: start;
+
+  color: #4b4124;
+  font-family: Jamie Woods;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.iperson {
+  width: 25%;
+  font-size: 35px;
+}
+
+.ifood {
+  width: 25%;
+  font-size: 35px;
+}
+
+.ipay {
+  width: 25%;
+  font-size: 35px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1096px){
+  .rectangulo {
+    width: 768px;
+    height: 2080px;
+  }
+
+  .txt-descripcionacerca {
+    width: 600px;
+    margin-left: 6%;
+    font-family: Atlane;
+    font-size: 18px;
+  }
+
+  .conocermas1 {
+    font-family: Atlane;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 25%;
+  }
+
+  .FotoAcercaDe {
+    margin-left: 10%;
+    margin-top: 20%;
+    background-position: 10%;
+    color: #4B4124;
+  }
+
+  .zum{
+    margin-left: 16.5%;
+  }
+}
+ */
+
+/* Estilos base para todas las pantallas */
+
+.rectangulo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #f3f4f4;
+  padding: 50px;
+}
+
+.zumzum {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0;
+}
+
+.txt-acerca {
+  text-align: justify;
+  margin-left: 10%;
+  color: #000000;
+  font-family: Atlane;
+  font-size: 48px;
+  line-height: normal;
+}
+
+.txt-descripcionacerca {
+  text-align: justify;
+  color: #4b4124;
+  font-family: Jamie Woods;
+  font-size: 36px;
+  font-weight: 400;
+  width: 35%;
+  margin-left: 10%;
+}
+
+.conocermas1 {
+  display: flex;
+  width: 223.816px;
+  height: 56px;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 20%;
+  border-radius: 15px;
+  background: #fcc937;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.61);
+  font-family: Atlane;
+}
+
+.FotoAcercaDe {
+  width: 624px;
+  margin-top: -25%;
+  height: 418px;
+  margin-left: 71%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.zum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  filter: drop-shadow(9px 10px 8px rgba(0, 0, 0, 0.2));
+  padding: 100px;
+}
+
+.car1,
+.car2,
+.car3 {
+  width: 330px;
+  height: 230px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  background: #f3f4f4;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-title {
+  padding-left: 20px;
+  text-align: justify;
+  color: #000;
+  font-family: Atlane;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card-text {
+  padding-bottom: 10%;
+  padding-left: 20px;
+  text-align: start;
+  color: #4b4124;
+  font-family: Jamie Woods;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.iperson,
+.ifood,
+.ipay {
+  width: 25%;
+  font-size: 35px;
+}
+
+/* Mobile S */
+@media screen and (max-width: 320px) {
+  .txt-acerca {
+    font-size: 36px;
+  }
+
+  .txt-descripcionacerca {
+    width: 100%;
+    margin-left: 0;
+    font-size: 16px;
+  }
+
+  .conocermas1 {
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  .FotoAcercaDe {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .zum {
+    padding: 50px 0;
+  }
+}
+
+/* Mobile M */
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .txt-acerca {
+    font-size: 40px;
+  }
+
+  .txt-descripcionacerca {
+    width: 100%;
+    margin-left: 0;
+    font-size: 18px;
+  }
+
+  .conocermas1 {
+    width: 55%;
+    margin-left: 22.5%;
+  }
+
+  .FotoAcercaDe {
+    width: 300px;
+    height: 200px;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .zum {
+    padding: 50px 0;
+  }
+}
+
+/* Mobile L */
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .rectangulo {
+    padding: 30px;
+  }
+
+  .zumzum {
+    padding: 60px 0;
+  }
+
+  .txt-acerca {
+    font-size: 40px;
+  }
+
+  .txt-descripcionacerca {
+    width: 100%;
+    font-size: 18px;
+    margin-left: 0;
+  }
+
+  .conocermas1 {
+    width: 70%;
+    margin: 20px auto;
+  }
+
+  .FotoAcercaDe {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .zum {
+    padding: 60px 0;
+  }
+
+/*   .car1,
+  .car2,
+  .car3 {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.25);
+  } */
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-text {
+    font-size: 20px;
+  }
+
+  .iperson,
+  .ifood,
+  .ipay {
+    font-size: 30px;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .rectangulo {
+    padding: 50px;
+  }
+
+  .zumzum {
+    padding: 50px 0;
+  }
+
+  .txt-acerca {
+    font-size: 36px;
+  }
+
+  .txt-descripcionacerca {
+    width: 600px;
+    margin-left: 6%;
+    font-family: Atlane;
+    font-size: 18px;
+  }
+
+  .conocermas1 {
+    font-family: Atlane;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 25%;
+  }
+
+  .FotoAcercaDe {
+    margin-left: 0%;
+    margin-top: 20%;
+  }
+
+  .zum {
+    margin-left: 16.5%;
+  }
+}
+
+/* Laptop */
+@media screen and (min-width: 1025px) {
+}
+
+/* Laptop L */
+/* @media screen and (min-width: 1440px) {
+  .rectangulo {
+    padding: 100px;
+  }
+
+  .zumzum {
+    padding: 150px 0;
+  }
+
+  .txt-acerca {
+    font-size: 52px;
+  }
+
+  .txt-descripcionacerca {
+    width: 40%;
+    font-size: 24px;
+  }
+
+  .conocermas1 {
+    width: 200px;
+    margin-left: 120px;
+  }
+
+  .FotoAcercaDe {
+    width: 730px;
+    margin-top: -20%;
+    height: 500px;
+    margin-left: 50%;
+  }
+
+  .zum {
+    padding: 150px;
+  }
+
+  .car1,
+  .car2,
+  .car3 {
+    width: 400px;
+    height: 300px;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .card-title {
+    font-size: 28px;
+  }
+
+  .card-text {
+    font-size: 22px;
+  }
+
+  .iperson,
+  .ifood,
+  .ipay {
+    font-size: 40px;
+  }
+}
+ */
+
+/* Laptop L */
+@media screen and (min-width: 1440px) {
+  .rectangulo {
+    padding: 100px;
+  }
+
+  .zumzum {
+    padding: 150px 0;
+  }
+
+  .txt-acerca {
+    font-size: 52px;
+  }
+
+  .txt-descripcionacerca {
+    width: 40%;
+    font-size: 24px;
+  }
+
+  .conocermas1 {
+    width: 200px;
+    margin-left: 120px;
+  }
+
+  .FotoAcercaDe {
+    width: 730px;
+    margin-top: -20%;
+    height: 500px;
+    margin-left: 50%;
+  }
+
+/*   .zum {
+    padding: 150px;
+  } */
+
+  /* Aquí no hay estilos para las tarjetas */
+
+/*   .card-title {
+    font-size: 28px;
+  }
+ */
+/*   .card-text {
+    font-size: 22px;
+  } */
+
+  .iperson,
+  .ifood,
+  .ipay {
+    font-size: 40px;
+  }
+}
